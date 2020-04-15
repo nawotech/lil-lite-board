@@ -4,10 +4,10 @@ EELAYER END
 $Descr USLegal 14000 8500
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Bike Light"
+Date "2020-04-14"
+Rev "A"
+Comp "Dot"
 Comment1 ""
 Comment2 ""
 Comment3 ""
