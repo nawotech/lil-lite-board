@@ -124,6 +124,31 @@ X GND 9 0 -500 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# Bike-Light_S2B-PH-SM4-TB_LF_SN
+#
+DEF Bike-Light_S2B-PH-SM4-TB_LF_SN J 0 40 Y Y 1 F N
+F0 "J" -100 -50 50 H V R CNN
+F1 "Bike-Light_S2B-PH-SM4-TB_LF_SN" 50 -150 50 H V C CNN
+F2 "digikey-footprints:PinHeader_2x1mm_P2mm_SMD_RA" 200 200 60 H I L CNN
+F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" 200 300 60 H I L CNN
+F4 "455-1749-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "S2B-PH-SM4-TB(LF)(SN)" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Rectangular Connectors - Headers, Male Pins" 200 700 60 H I L CNN "Family"
+F8 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/jst-sales-america-inc/S2B-PH-SM4-TB(LF)(SN)/455-1749-1-ND/926846" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN HEADER SMD R/A 2POS 2MM" 200 1000 60 H I L CNN "Description"
+F11 "JST Sales America Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -50 0 150 -100 1 1 0 f
+S -10 -45 10 -65 1 1 0 F
+S 90 -45 110 -65 1 1 0 F
+X ~ 1 0 100 100 D 50 50 1 1 P
+X ~ 2 100 100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Bike-Light_SEMF05LC
 #
 DEF Bike-Light_SEMF05LC D 0 20 Y N 1 F N
@@ -425,31 +450,6 @@ P 2 0 1 0 0 50 0 120 N
 P 2 0 1 0 100 50 -100 50 N
 X 1 1 -200 0 100 R 50 50 0 1 P
 X 2 2 200 0 100 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# dk_Rectangular-Connectors-Headers-Male-Pins_S2B-PH-SM4-TB_LF__SN_
-#
-DEF dk_Rectangular-Connectors-Headers-Male-Pins_S2B-PH-SM4-TB_LF__SN_ J 0 40 Y Y 1 F N
-F0 "J" -100 -50 50 H V R CNN
-F1 "dk_Rectangular-Connectors-Headers-Male-Pins_S2B-PH-SM4-TB_LF__SN_" 50 -150 50 H V C CNN
-F2 "digikey-footprints:PinHeader_2x1mm_P2mm_SMD_RA" 200 200 60 H I L CNN
-F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" 200 300 60 H I L CNN
-F4 "455-1749-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "S2B-PH-SM4-TB(LF)(SN)" 200 500 60 H I L CNN "MPN"
-F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
-F7 "Rectangular Connectors - Headers, Male Pins" 200 700 60 H I L CNN "Family"
-F8 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/jst-sales-america-inc/S2B-PH-SM4-TB(LF)(SN)/455-1749-1-ND/926846" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "CONN HEADER SMD R/A 2POS 2MM" 200 1000 60 H I L CNN "Description"
-F11 "JST Sales America Inc." 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
-DRAW
-S -50 0 150 -100 1 1 0 f
-S -10 -45 10 -65 1 1 0 F
-S 90 -45 110 -65 1 1 0 F
-X ~ 1 0 100 100 D 50 50 1 1 P
-X ~ 2 100 100 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

@@ -1595,7 +1595,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 4550 1150 4550
 $Comp
-L dk_Rectangular-Connectors-Headers-Male-Pins:S2B-PH-SM4-TB_LF__SN_ J2
+L Bike-Light:S2B-PH-SM4-TB_LF_SN J2
 U 1 1 5E755FBD
 P 900 4550
 F 0 "J2" V 1150 4500 50  0000 C CNN

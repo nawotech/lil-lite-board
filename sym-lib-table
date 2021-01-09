@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name Bike-Light)(type Legacy)(uri ${KIPRJMOD}/Bike-Light.lib)(options "")(descr ""))
   (lib (name dk_Rectangular-Connectors-Headers-Male-Pins)(type Legacy)(uri /Users/cameron/git/digikey-kicad-library/digikey-symbols/dk_Rectangular-Connectors-Headers-Male-Pins.lib)(options "")(descr ""))
+  (lib (name bike-light-board-rescue)(type Legacy)(uri ${KIPRJMOD}/bike-light-board-rescue.lib)(options "")(descr ""))
 )
