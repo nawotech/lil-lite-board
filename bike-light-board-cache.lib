@@ -139,21 +139,6 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Bike-Light_VSUP
-#
-DEF Bike-Light_VSUP #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Bike-Light_VSUP" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X VSUP 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # Bike-Light_WirePad
 #
 DEF Bike-Light_WirePad P 0 30 N N 1 F N
@@ -324,17 +309,17 @@ C 113 -200 35 1 1 0 N
 C 113 -50 35 1 1 0 N
 C 113 102 35 1 1 0 N
 C 150 -325 56 1 1 0 N
-T 0 0 -1000 50 0 0 0 "BT = 0 : bootloader" Normal 0 C C
-T 0 100 -900 50 0 0 0 "BT = 1 : boot from flash" Normal 0 C C
 T 0 -100 -1150 50 0 0 0 "EN = 0 : Reset" Normal 0 C C
 T 0 50 -750 50 0 0 0 "ESP32 Programming Header" Normal 0 C C
+T 0 0 -1000 50 0 0 0 "IO0 = 0 : bootloader" Normal 0 C C
+T 0 100 -900 50 0 0 0 "IO0 = 1 : boot from flash" Normal 0 C C
 S -550 -650 700 -1250 0 0 0 N
-X V+ 1 -200 100 150 R 50 50 1 1 P
-X EN 2 300 100 150 L 50 50 1 1 P
+X EN 1 -200 100 150 R 50 50 1 1 P
+X VDD 2 300 100 150 L 50 50 1 1 P
 X TX 3 -200 -50 150 R 50 50 1 1 P
-X BT 4 300 -50 150 L 50 50 1 1 P
+X GND 4 300 -50 150 L 50 50 1 1 P
 X RX 5 -200 -200 150 R 50 50 1 1 P
-X GND 6 300 -200 150 L 50 50 1 1 P
+X IO0 6 300 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -574,6 +559,23 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# cb_Test-Points_TestPoint_ICT_1mm
+#
+DEF cb_Test-Points_TestPoint_ICT_1mm TP 0 30 N N 1 F N
+F0 "TP" 0 75 50 H I C CNN
+F1 "cb_Test-Points_TestPoint_ICT_1mm" 0 80 50 H I C CNN
+F2 "footprints:ICT_TestPoint_Pad_D1.00mm" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 0 36 0 1 0 N
+X 1 1 0 0 0 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # cb_Transistors-FETs_HX2301A
 #
 DEF cb_Transistors-FETs_HX2301A Q 0 0 Y N 1 F N
@@ -655,21 +657,6 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_+BATT
-#
-DEF power_+BATT #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+BATT" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +BATT 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # power_+VSW
 #
 DEF power_+VSW #PWR 0 0 Y Y 1 F P
@@ -708,21 +695,6 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
 X pwr 1 0 0 0 U 50 50 0 0 w
-ENDDRAW
-ENDDEF
-#
-# power_VBUS
-#
-DEF power_VBUS #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_VBUS" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X VBUS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
