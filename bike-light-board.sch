@@ -4,10 +4,10 @@ EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
-Title "Bike Light"
-Date "2020-04-14"
-Rev "A"
-Comp "Dot"
+Title "Lil Lite"
+Date "2021-08-07"
+Rev "V3"
+Comp "Nawotech"
 Comment1 ""
 Comment2 ""
 Comment3 ""
