@@ -1,4 +1,4 @@
 
-kikit fab jlcpcb --assembly --schematic bike-light-board.sch bike-light-board.kicad_pcb fabrication-files --field "JCLPCB Part Number"
+kikit fab jlcpcb --assembly --schematic lil-lite-board.sch lil-lite-board.kicad_pcb fabrication-files --field "JCLPCB Part Number"
 
 docker run -it -w /kikit -v $(pwd):/kikit yaqwsx/kikit /bin/bash

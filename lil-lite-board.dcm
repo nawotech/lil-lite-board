@@ -1,0 +1,61 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HX4054A
+D Constant-current/constant-voltage linear charger for single cell lithium-ion batteries with 2.9V Trickle Charge, 4.5V to 6.5V VDD, -40 to +85 degree Celcius, TSOT-23-5
+K Constant-current constant-voltage linear charger single cell lithium-ion battery
+$ENDCMP
+#
+$CMP M74VHC1GT08DFT2G
+D 2-Input Single AND Gate/ Logic Level Shifter
+K AND
+$ENDCMP
+#
+$CMP MF-FSMF050X-2
+D Resettable fuse, polymeric positive temperature coefficient, small symbol
+K resettable fuse PTC PPTC polyfuse polyswitch
+F https://www.bourns.com/docs/Product-Datasheets/mffsmf.pdf
+$ENDCMP
+#
+$CMP NCE2003
+D FET N and P
+K FET
+F https://datasheet.lcsc.com/szlcsc/1809131535_Wuxi-NCE-Power-Semiconductor-NCE2003_C216792.pdf
+$ENDCMP
+#
+$CMP QMA7981
+D Single-Chip 3-Axis Accelerometer, SPI/I2C interface, LGA-12
+K accelerometer gyro mems motion
+F https://datasheet.lcsc.com/szlcsc/1912111437_QST-QMA7981_C457290.pdf
+$ENDCMP
+#
+$CMP SEMF05LC
+K usb esd protection suppression transient
+F http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf
+$ENDCMP
+#
+$CMP SMD0805-20
+D Ambient Light Sensor
+$ENDCMP
+#
+$CMP SS14F
+D 40V 1A 550mV @ 1A SMAF Schottky Barrier Diode
+F https://datasheet.lcsc.com/szlcsc/1809211340_Guangdong-Hottech-SS14F_C190473.pdf
+$ENDCMP
+#
+$CMP SSP6206-33NR
+D 300mA Low Power LDO 3.3V
+F https://datasheet.lcsc.com/szlcsc/1809201825_Shanghai-Siproin-Microelectronics-SSP6206-33NR_C277882.pdf
+$ENDCMP
+#
+$CMP VSUP
+D Power symbol creates a global label with name "VSUP"
+K power-flag
+$ENDCMP
+#
+$CMP WirePad
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
+#End Doc Library
