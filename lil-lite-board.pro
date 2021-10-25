@@ -1,4 +1,4 @@
-update=Saturday, August 07, 2021 at 05:54:14 PM
+update=Monday, October 25, 2021 at 11:53:27 AM
 version=1
 last_client=kicad
 [general]
@@ -270,7 +270,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=/Users/cameron/OneDrive/Documents/Projects/Bike Light/PCBA Files V4.1/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
